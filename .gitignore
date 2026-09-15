@@ -1,0 +1,57 @@
+# ============================================================
+# SalesIn - Git Ignore
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+
+# Banco SQL Server
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+
+# Arquivos temporários SQL
+*.tmp
+
+# Power BI local
+*.pbix~
+
+# Secrets / chaves
+*.key
+*.pem
+*.pfx
+*.cer
+
+# Arquivos temporários
+*.temp
+*.swp
+*.swo
